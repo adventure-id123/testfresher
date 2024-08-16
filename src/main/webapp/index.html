@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Project1.css">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    /* border: 2px solid white; */
+    height: 500px;
+    width: 80%;
+
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+#Con{
+    /* border: 2px solid black; */
+    height: 80px;
+    width: 161.5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+}
+
+.Conn{
+    /* border: 2px solid blue; */
+    height: 50px; 
+    width: 100px;
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    }
+
+
+div>.Conn:nth-of-type(1)
+{
+    color: red;
+}
+
+
+div>.Conn:nth-child(even)
+{
+    color: red;
+}
+
+#img
+{
+    background-image: url("./Photos/skyscrapers-night-buildings-architecture-wallpaper.jpg");
+    height: 435px;
+    width: 1056px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 146px;
+   
+    }
+
+    #Sea{
+        /* border: 2px solid white; */
+        height: 40px;
+        width: 600px;
+        display: flex;
+        position: absolute;
+        top: 70px;
+        left: 200px;
+        text-align: center;
+        color: white;
+        font-size: 28PX;
+    }
+
+#Search
+{
+    border: 2px solid white;
+    height: 40px;
+    width: 400px;
+    position: absolute;
+    left: 260px;
+    top: 170px;
+    background-color: white;
+    text-align: start;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif */
+    letter-spacing: 1;
+}
+
+#Sea1
+{
+    border: 2px solid #b30000;
+    height: 40px;
+    width: 90px;
+    position: absolute;
+    left: 680px;
+    top: 170px;
+    background-color:#b30000;
+    align-items: flex-end;
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+}
+
+#Box
+{
+    /* border: 2px solid white; */
+    height: 50px;
+    width: 510px;
+    position: absolute;
+    top: 385px;
+    left: 260px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.Boxex
+{
+    /* border: 2px solid white; */
+    background-color: white;
+    height: 50px;
+    width: 90px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+</style>
+
+    <div>
+        <div id="Con">
+            <!-- #Con1$.Con1*4 -->
+            <div id="img">
+            <div id="Sea"><b>BEST PLACE TO FIND AND EXPLORE THAT ALL YOU NEED</b></div>
+            <div id="Search">What ? Palace,Resturant,Automobile Location</div>
+            <div id="Sea1">Search</div>
+            <div id="Box">
+                <div id="Box1" class="Boxex"><img src="./Photos/download.png" alt="" height="30px"></div>
+                <div id="Box2" class="Boxex"><img src="./Photos/icons8-bento-50.png" alt="" height="30px"></div>
+                <div id="Box3" class="Boxex"><img src="./Photos/icons8-salad-50.png" alt="" height="30px"></div>
+                <div id="Box4" class="Boxex"><img src="./Photos/PALACE.png" alt="" height="30px"></div>
+                <div id="Box5" class="Boxex"><img src="./Photos/LOCATION.png" alt="" height="30px"></div>
+                
+            </div>
+            </div>
+            <div id="Con1" class="Conn">ListRace</div>
+            <div id="Con2" class="Conn">Home</div>
+            <div id="Con3" class="Conn">How its Works</div>
+            <div id="Con4" class="Conn">Explore</div>
+            <div id="Con5" class="Conn">Review</div>
+            </div>
+            
+    </div>
+  
+</body>
+</html>
