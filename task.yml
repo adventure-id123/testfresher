@@ -6,5 +6,9 @@ become:yes
 connection:ssh
 tasks:
 - name: copy war files
-src:
-dest:
+src: /path/to/jenkins/workspace/testfresher.war
+dest: /path/to/tomcat/webapps
+- name: Start Tomcat
+  service:
+    name: tomcat
+    state: started
