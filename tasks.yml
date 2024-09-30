@@ -1,0 +1,10 @@
+---
+-name: to check connection
+hosts:demo
+user:ansible
+become:yes
+connection:ssh
+tasks:
+- name: copy war files
+src:
+dest:
