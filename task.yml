@@ -1,11 +1,11 @@
 ---
-- name: to check connection
-  hosts:demo
-  user:ansible
-  become:yes
-  connection:ssh
+- name: tasks section practice
+  hosts: demo
+  user: ansible
+  become: yes
+  connection: ssh
   tasks:
-    - name: copy war files
+    - name: install httpd
       copy:
-         src: 
+         src:
          dest:
