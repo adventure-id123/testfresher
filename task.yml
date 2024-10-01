@@ -1,14 +1,11 @@
 ---
--name: to check connection
-hosts:demo
-user:ansible
-become:yes
-connection:ssh
-tasks:
-- name: copy war files
-src: /path/to/jenkins/workspace/testfresher.war
-dest: /path/to/tomcat/webapps
-- name: Start Tomcat
-  service:
-    name: tomcat
-    state: started
+- name: to check connection
+  hosts:demo
+  user:ansible
+  become:yes
+  connection:ssh
+  tasks:
+    - name: copy war files
+      copy:
+         src: 
+         dest:
