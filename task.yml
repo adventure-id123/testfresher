@@ -1,11 +1,11 @@
 ---
-- name: tasks section practice
+- name: to check target
   hosts: demo
   user: ansible
   become: yes
   connection: ssh
   tasks:
-    - name: install httpd
+    - name: copy war file
       copy:
          src:
          dest:
