@@ -7,6 +7,6 @@
   tasks:
     - name: copy war file
       copy:
-         src: /home/ansible/testfresher.war
-         dest: /root/apache-tomcat-9.0.95/webapps
+         src:
+         dest:
 
